@@ -13,13 +13,14 @@ ___INFO___
   "id": "cvt_temp_public_id",
   "version": 1,
   "securityGroups": [],
-  "displayName": "name_test11",
+  "displayName": "PoC",
   "brand": {
     "id": "brand_dummy",
     "displayName": "",
-    "thumbnail": "data:image/jpeg;base64,PGgxPmFhYTwvaDE+DQo="
+    "logo": "",
+    "thumbnail": ""
   },
-  "description": "desc_test",
+  "description": "PoC for XSS",
   "containerContexts": [
     "WEB"
   ]
@@ -30,10 +31,9 @@ ___TEMPLATE_PARAMETERS___
 
 [
   {
-    "type": "TEXT",
-    "name": "test_field\">",
-    "displayName": "displ<p/onmouseover=alert`1`>aaa</p>",
-    "simpleValueType": true
+    "type": "LABEL",
+    "name": "PoC Label",
+    "displayName": "PoC Display name"
   }
 ]
 
@@ -74,4 +74,4 @@ data.gtmOnSuccess();
 
 ___NOTES___
 
-Created on 10/23/2019, 12:41:03 AM
+Created on 10/23/2019, 12:44:35 AM
